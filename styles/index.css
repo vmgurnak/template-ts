@@ -1,4 +1,10 @@
-@import './normalize.css';
+@import './modern-normalize.css';
+@import './reset.css';
+@import './global.css';
 @import './fonts.css';
 @import './variables.css';
-@import './global.css';
+@import './utils.css';
+@import './container.css';
+
+@import './components/button.css';
+@import './components/input.css';

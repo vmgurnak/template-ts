@@ -1,0 +1,55 @@
+/* filter */
+
+.filtered {
+  filter: blur(5px) grayscale(100%);
+}
+
+/* blur()
+Применяет эффект размытия к изображению. */
+
+/* brightness()
+Делает изображение ярче или темнее. */
+
+/* contrast()
+Увеличивает или уменьшает контрастность изображения. */
+
+/* drop-shadow()
+Применяет к изображению тень. */
+
+/* grayscale()
+Преобразует изображение к тонам серого. */
+
+/* hue-rotate()
+Изменяет оттенок изображения за счёт поворота на цветовом круге. */
+
+/* invert()
+Инвертирует цвета изображения. */
+
+/* opacity()
+Изменяет прозрачность изображения. */
+
+/* saturate()
+Изменяет насыщенность цветов изображения. */
+
+/* sepia()
+Преобразует изображение в сепию. */
+
+/* backdrop-filter */
+
+.backdrop-filter {
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+}
+
+/* clip-path */
+
+.clipped {
+  clip-path: padding-box circle(50px at 0 100px);
+}
+
+/* background-blend-mode */
+
+.bg-blend {
+  background-image: url();
+  background-color: red;
+  background-blend-mode: multiply;
+}
